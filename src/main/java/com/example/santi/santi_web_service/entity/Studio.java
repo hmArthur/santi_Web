@@ -24,6 +24,7 @@ public class Studio {
 
     private Boolean foiVendido = false;
     private Boolean temGarden = false;
+    private Boolean temChurrasqueira = false;
 
     private String metragemPrivativa;
 
@@ -32,6 +33,14 @@ public class Studio {
 
     public Boolean getFoiVendido() {
         return foiVendido;
+    }
+
+    public Boolean getTemChurrasqueira() {
+        return temChurrasqueira;
+    }
+
+    public void setTemChurrasqueira(Boolean temChurrasqueira) {
+        this.temChurrasqueira = temChurrasqueira;
     }
 
     public String getNome() {
