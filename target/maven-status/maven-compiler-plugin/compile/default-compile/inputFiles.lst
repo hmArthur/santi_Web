@@ -1,0 +1,9 @@
+/home/arthur-kohler/Documents/santi_web_service/santi_web_service/src/main/java/com/example/santi/santi_web_service/repository/StudioRepository.java
+/home/arthur-kohler/Documents/santi_web_service/santi_web_service/src/main/java/com/example/santi/santi_web_service/service/StorageService.java
+/home/arthur-kohler/Documents/santi_web_service/santi_web_service/src/main/java/com/example/santi/santi_web_service/controllers/StudioGetController.java
+/home/arthur-kohler/Documents/santi_web_service/santi_web_service/src/main/java/com/example/santi/santi_web_service/entity/Studio.java
+/home/arthur-kohler/Documents/santi_web_service/santi_web_service/src/main/java/com/example/santi/santi_web_service/repository/ImageRepository.java
+/home/arthur-kohler/Documents/santi_web_service/santi_web_service/src/main/java/com/example/santi/santi_web_service/utils/ImageUtils.java
+/home/arthur-kohler/Documents/santi_web_service/santi_web_service/src/main/java/com/example/santi/santi_web_service/entity/ImageModel.java
+/home/arthur-kohler/Documents/santi_web_service/santi_web_service/src/main/java/com/example/santi/santi_web_service/controllers/ImageGetController.java
+/home/arthur-kohler/Documents/santi_web_service/santi_web_service/src/main/java/com/example/santi/santi_web_service/SantiWebServiceApplication.java
