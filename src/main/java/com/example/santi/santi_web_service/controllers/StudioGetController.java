@@ -57,8 +57,17 @@ public class StudioGetController {
     
         studios.forEach(studio -> {
             studio.getImagens().size();
-           
-          studiosd.add(new studioDto(studio.getNome(), studio.getFoiVendido(), studio.getTemChurrasqueira(), studio.getTemGarden(), studio.getMetragemPrivativa(), ImageUtils.decompressImage(studio.getImagens().get(0).getImageData())));
+            if (studio.getImagens().size() > 0)  {
+            studiosd.add(new studioDto(studio.getNome(),
+             studio.getFoiVendido(), studio.getTemChurrasqueira(), 
+             studio.getTemGarden(), studio.getMetragemPrivativa(),
+              ImageUtils.decompressImage(studio.getImagens().get(0).getImageData())));
+            } else {
+                studiosd.add(new studioDto(studio.getNome(),
+                studio.getFoiVendido(), studio.getTemChurrasqueira(), 
+                studio.getTemGarden(), studio.getMetragemPrivativa(),
+                null));
+            }
         });
 
         
