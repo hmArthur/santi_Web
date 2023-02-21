@@ -1,0 +1,9 @@
+com/example/santi/santi_web_service/controllers/StudioGetController.class
+com/example/santi/santi_web_service/entity/Studio.class
+com/example/santi/santi_web_service/service/StorageService.class
+com/example/santi/santi_web_service/controllers/ImageGetController.class
+com/example/santi/santi_web_service/SantiWebServiceApplication.class
+com/example/santi/santi_web_service/entity/ImageModel.class
+com/example/santi/santi_web_service/utils/ImageUtils.class
+com/example/santi/santi_web_service/repository/ImageRepository.class
+com/example/santi/santi_web_service/repository/StudioRepository.class

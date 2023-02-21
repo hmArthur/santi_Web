@@ -12,6 +12,7 @@ import com.example.santi.santi_web_service.entity.Studio;
 import com.example.santi.santi_web_service.repository.ImageRepository;
 import com.example.santi.santi_web_service.repository.StudioRepository;
 import com.example.santi.santi_web_service.utils.ImageUtils;
+import com.fasterxml.jackson.core.format.InputAccessor.Std;
 
 @Service
 public class StorageService {

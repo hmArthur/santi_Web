@@ -23,7 +23,7 @@ public class ImageModel {
     @Column(name = "imagedata",length = 100000)
     private byte[] imageData;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     private Studio studio;
 
     public byte[] getImageData() {

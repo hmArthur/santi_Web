@@ -4,6 +4,8 @@ import java.io.ByteArrayOutputStream;
 import java.util.zip.Deflater;
 import java.util.zip.Inflater;
 
+import com.example.santi.santi_web_service.entity.ImageModel;
+
 public class ImageUtils {
 
 
@@ -28,10 +30,10 @@ public class ImageUtils {
 
 
 
-    public static byte[] decompressImage(byte[] data) {
+    public static byte[] decompressImage(byte[] bs) {
         Inflater inflater = new Inflater();
-        inflater.setInput(data);
-        ByteArrayOutputStream outputStream = new ByteArrayOutputStream(data.length);
+        inflater.setInput(bs);
+        ByteArrayOutputStream outputStream = new ByteArrayOutputStream(bs.length);
         byte[] tmp = new byte[4*1024];
         try {
             while (!inflater.finished()) {
