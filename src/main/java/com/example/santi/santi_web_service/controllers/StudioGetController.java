@@ -37,8 +37,11 @@ public class StudioGetController {
     @GetMapping("/{studio}")
 	public ResponseEntity<?> downloadImage(@PathVariable String studio){
         Studio studioN = repository.findByNome(studio).get();
-        studioN.getImagens();
-        byte[] imageByte = ImageUtils.decompressImage(studioN.getImagens().get(0).getImageData());
+        studioN.getImagens().forEach((im) -> {
+            byte[] image = ImageUtils.decompressImage(im.getImageData());
+            im.setImageData(image);
+        });
+       
 
 		return ResponseEntity   
                 .status(HttpStatus.OK)
