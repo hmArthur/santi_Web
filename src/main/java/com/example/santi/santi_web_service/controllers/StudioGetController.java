@@ -52,11 +52,11 @@ public class StudioGetController {
     @CrossOrigin
     @GetMapping("/pagina/{pagina}")
 	public ResponseEntity<?> getAllStudios(@PathVariable String pagina){
-        Pageable firstPageWithEight = PageRequest.of(Integer.parseInt(pagina), 8);
+        Pageable firstPageWithEight = PageRequest.of(Integer.parseInt(pagina), 6);
         
         
         Page<Studio> studios = repository.findAll(firstPageWithEight);
-        List<studioDto> studiosd = new ArrayList(8);
+        List<studioDto> studiosd = new ArrayList(6);
     
         studios.forEach(studio -> {
             studio.getImagens().size();

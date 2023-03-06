@@ -32,9 +32,9 @@ public class Studio {
 
     private String nome;
 
-    private Boolean foiVendido = false;
-    private Boolean temGarden = false;
-    private Boolean temChurrasqueira = false;
+    private String foiVendido = "false";
+    private String temGarden =   "false";
+    private String temChurrasqueira = "false";
 
     private String metragemPrivativa;
     
@@ -46,15 +46,15 @@ public class Studio {
         return this.id;
     }
 
-    public Boolean getFoiVendido() {
+    public String getFoiVendido() {
         return foiVendido;
     }
 
-    public Boolean getTemChurrasqueira() {
+    public String getTemChurrasqueira() {
         return temChurrasqueira;
     }
 
-    public void setTemChurrasqueira(Boolean temChurrasqueira) {
+    public void setTemChurrasqueira(String temChurrasqueira) {
         this.temChurrasqueira = temChurrasqueira;
     }
 
@@ -78,15 +78,15 @@ public class Studio {
         this.metragemPrivativa = metragemPrivativa;
     }
 
-    public Boolean getTemGarden() {
+    public String getTemGarden() {
         return temGarden;
     }
 
-    public void setTemGarden(Boolean temGarden) {
+    public void setTemGarden(String temGarden) {
         this.temGarden = temGarden;
     }
 
-    public void setFoiVendido(Boolean foiVendido) {
+    public void setFoiVendido(String foiVendido) {
         this.foiVendido = foiVendido;
     }
 

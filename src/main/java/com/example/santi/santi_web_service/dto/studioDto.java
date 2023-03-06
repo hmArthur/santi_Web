@@ -14,13 +14,13 @@ import lombok.Getter;
 public class studioDto {
     private Long id;
     private String nome;
-    private Boolean foiVendido;
-    private Boolean temGarden;
-    private Boolean temChurrasqueira;
+    private String foiVendido;
+    private String temGarden;
+    private String temChurrasqueira;
     private String metragemPrivativa;
     private byte[] imagem;
 
-    public studioDto(String nome2, Boolean foiVendido2, Boolean temChurrasqueira2, Boolean temGarden2, String metragemPrivativa2,
+    public studioDto(String nome2, String foiVendido2, String temChurrasqueira2, String temGarden2, String metragemPrivativa2,
             byte[] imageByte) {
         this.setNome(nome2);
         this.setFoiVendido(foiVendido2);
@@ -46,27 +46,27 @@ public class studioDto {
         this.imagem = imagem;
     }
 
-    public Boolean getTemChurrasqueira() {
+    public String getTemChurrasqueira() {
         return temChurrasqueira;
     }
 
-    public void setTemChurrasqueira(Boolean temChurrasqueira) {
+    public void setTemChurrasqueira(String temChurrasqueira) {
         this.temChurrasqueira = temChurrasqueira;
     }
 
-    public Boolean getTemGarden() {
+    public String getTemGarden() {
         return temGarden;
     }
 
-    public void setTemGarden(Boolean temGarden) {
+    public void setTemGarden(String temGarden) {
         this.temGarden = temGarden;
     }
 
-    public Boolean getFoiVendido() {
+    public String getFoiVendido() {
         return foiVendido;
     }
 
-    public void setFoiVendido(Boolean foiVendido) {
+    public void setFoiVendido(String foiVendido) {
         this.foiVendido = foiVendido;
     }
 
