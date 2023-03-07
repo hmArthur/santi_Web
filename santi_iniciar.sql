@@ -83,3 +83,32 @@ values ('(vendido) (vendido) ', '21,61m² 21,73m²', 'studio 702, studio 801', '
 insert into studios (foiVendido, metragemPrivativa, nome, temGarden, temChurrasqueira) 
 values ('(vendido) (vendido) ', '17,18m² 17,28m²', 'studio 703, studio 801', '', '');
 
+
+
+
+
+insert into studios (foiVendido, metragemPrivativa, nome, temGarden, temChurrasqueira)
+values ('disponível disponível', '19,04m², 18,66m²', 'studio 101, studio 203', '+ garden', '');
+insert into studios (foiVendido, metragemPrivativa, nome, temGarden, temChurrasqueira)
+values ('disponível disponível', '27,46m², 27,30m²', 'studio 102, studio 204', '+ garden', '                           + sacada com churrasqueira');
+insert into studios (foiVendido, metragemPrivativa, nome, temGarden, temChurrasqueira)
+values ('disponível disponível disponível', '19,31m², 20,50m² 18,98m² 20,50m²', 'studio 103, studio 104, studio 205, studio 206', '+ garden + garden', '');
+insert into studios (foiVendido, metragemPrivativa, nome, temGarden, temChurrasqueira) 
+values ('disponível', '35,95m²', 'studio 201', '', '+ sacada com churrasqueira');
+insert into studios (foiVendido, metragemPrivativa, nome, temGarden, temChurrasqueira) 
+values ('disponível', '27,09m²', 'studio 202', '', '+ sacada com churrasqueira');
+insert into studios (foiVendido, metragemPrivativa, nome, temGarden, temChurrasqueira) 
+values ('disponível disponível (vendido) ', '23,63m² 23,89m² 23,89m²', 'studio 301, studio 401, studio 501', '+ garden', '+ sacada com churrasqueira + sacada com churrasqueira + sacada com churrasqueira');
+insert into studios (foiVendido, metragemPrivativa, nome, temGarden, temChurrasqueira) 
+values ('(vendido)  disponível disponível', '25,04m² 25,28m² 25,28m²', 'studio 302, studio 402, studio 502', '', '+ sacada com churrasqueira + sacada com churrasqueira + sacada com churrasqueira');
+insert into studios (foiVendido, metragemPrivativa, nome, temGarden, temChurrasqueira) 
+values ('disponível disponível disponível', '32,97m² 32,97m² 32,97m²', 'studio 303, studio 403, studio 503', '+ garden', '+ sacada com churrasqueira + sacada com churrasqueira + sacada com churrasqueira');
+insert into studios (foiVendido, metragemPrivativa, nome, temGarden, temChurrasqueira) 
+values ('disponível disponível disponível', '29,03m² 29,31m² 29,31m²', 'studio 304, studio 404, studio 504', '+ garden', '+ sacada com churrasqueira + sacada com churrasqueira + sacada com churrasqueira');
+insert into studios (foiVendido, metragemPrivativa, nome, temGarden, temChurrasqueira) 
+values ('disponível (vendido) ', '24,75m² 30,39m²', 'studio 601, studio 701', '+ garden', '+ sacada com churrasqueira + sacada com churrasqueira');
+insert into studios (foiVendido, metragemPrivativa, nome, temGarden, temChurrasqueira) 
+values ('(vendido) (vendido) ', '21,61m² 21,73m²', 'studio 702, studio 801', '', '+ churrasqueira            + churrasqueira')
+insert into studios (foiVendido, metragemPrivativa, nome, temGarden, temChurrasqueira) 
+values ('(vendido) (vendido) ', '17,18m² 17,28m²', 'studio 703, studio 802', '', '');
+
